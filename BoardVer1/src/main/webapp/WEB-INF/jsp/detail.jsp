@@ -23,8 +23,8 @@ BoardVO vo = (BoardVO) request.getAttribute("data");
 				type="submit" value="삭제">
 
 		</form>
-
-		<a href="/del?no=<%=a%>"><button>삭제</button></a>
+		<a href="/mod?no=<%=a%>"><button>수정</button></a>
+		<!-- <a href="/del?no=<%=a%>"><button>삭제</button></a> --> <!-- Get방식 -->
 	</div>
 	<div>
 		제목 :
